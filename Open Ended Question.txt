@@ -1,0 +1,19 @@
+What was the last piece of software you worked on? What did you specifically build? What challenges did you encounter and how did you overcome them?
+
+The last piece of software I worked on was for Contact Creatives Limited, a platform that connects creative talent with brands for their creative projects. My focus was on enhancing user interaction by building the messaging feature.
+
+I developed the real-time messaging functionality to facilitate seamless communication between talents and clients. The implementation involved:
+	•	GraphQL for efficient querying and updating of messaging data.
+	•	WebSockets to enable real-time updates.
+
+The most significant challenge was establishing a stable WebSocket connection. Initially, connections were not being established reliably, which impacted real-time updates. This required:
+	•	Close collaboration with the backend lead to debug the issue. We worked together to ensure compatibility between the WebSocket server and the client.
+	•	Implementing proper connection retries and error handling on the frontend.
+
+Another challenge was ensuring the data structure exchanged between the frontend and backend was consistent. This involved:
+	•	Multiple back-and-forth discussions with the backend team to align on the GraphQL schema and payload format.
+	•	Writing unit tests and simulating different scenarios to validate data consistency and performance.
+
+Through this collaborative and iterative approach, we were able to deliver a feature that enhanced the platform’s usability.
+
+The messaging feature was successfully deployed, improving user engagement by enabling real-time communication. It became a key component of the platform and received positive feedback from users.
